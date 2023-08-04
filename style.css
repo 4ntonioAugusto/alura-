@@ -7,6 +7,9 @@
  body{
   background-color: var(--cor-de-fundo);
    color: var(--branco-principal);
+   border-radius: 5px;
+   padding: 1em;
+   display: block;
   
  }
  .principal{
@@ -16,5 +19,11 @@
  }
 .container{
     height:100vh;
+     display: grid;
+     grid-template-columns: 50% 50%
 
+ }
+ .botao_secundario{
+   background-color:transparent;
+   border: 2px solid var(--branco-principal); 
  }
